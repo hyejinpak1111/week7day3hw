@@ -1,0 +1,45 @@
+.form-control {
+    width: 10% !important;
+    margin: 0 auto;
+  }
+  
+  .find {
+    text-align: center;
+  }
+  
+  .container {
+    display: block;
+    position: relative;
+  
+    height: 28vh;
+  }
+  
+  .container::after {
+    content: "";
+    background-image: url(https://res.cloudinary.com/dulasau/image/upload/v1660187791/171030130315-f1-ferrari-hawthorn-monza-full-169_xr8smz.jpg);
+    opacity: 0.7;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    position: absolute;
+    z-index: -1;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+    border-radius: 9px;
+  }
+  
+  .table {
+    table-layout: fixed !important;
+    width: 100% !important;
+  }
+  
+  h1 {
+    font-weight: 700 !important;
+    color: #495057;
+  }
+  
+  /* .hidden {
+    display: none;
+  } */
